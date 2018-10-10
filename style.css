@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    background: lightblue;
+    color: white;
+    text-align: center;
+} 
+main {
+    margin: 0 auto;
+    width: 600px;
+}  
+h2 {
+    font-size: 20px;
+    margin: 80px 0px 10px;
+}
+h3 {
+    font-size: 17px;
+    margin: 30px 0px 100px;
+}
+button, a {
+    padding: 10px;
+    margin: 15px;
+    font-size: 15px;
+    background: lightblue;
+    color: #fff;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 400px; 
+    display: inline-block;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+button:hover, a:hover {
+    cursor: pointer;
+    transform: scale(1.1);      
+}
+  
